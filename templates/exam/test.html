@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<style>
+  .jumbotron{
+    margin-bottom: 0px;
+  }
+</style>
+<body>
+  {% include "exam/navbar.html" %}
+<br>
+<section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+  <div class="container text-center">
+    <h2 class="display-3 text-info">Market Insights</h2>
+<!--    <p class="display-4 d-none d-sm-block">Attend your examinations online!</p>-->
+    <h5>Market insight is a market and product monitoring company that enables f.m.c.g
+producers, small businesses, start ups and potential investors to make crucial
+decisions and discover new opportunities in the ever changing market.</h5>
+    <p class="lead">Sign Up now to become a respondent</p>
+
+
+    <p><strong> Start Your Journey Here:</strong></p>
+    <a href="/student/studentsignup" class="btn btn-lg btn-info" style="padding-right: 35px; border-radius: 0%;"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Sign Up as Respondent</a>
+
+    <br><br><br>
+  </div>
+</section>
+  {% include "exam/footer.html" %}
+
+<!--test-->
+
+
+<!--end test-->
+</body>
+
+</html>
